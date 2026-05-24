@@ -33,7 +33,7 @@ class Solution(object):
 
 obj = Solution()
 
-nums = list(map(int, input().split()))
+nums = list(map(int(input().split())))
 target = int(input("Target: "))
 
 result = obj.twoSum(nums, target)
