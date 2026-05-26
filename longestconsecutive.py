@@ -7,24 +7,15 @@ class Solution(object):
         longest = 0
 
         for num in s:
-
-            # start of sequence
             if num - 1 not in s:
-
                 length = 1
-
                 while num + length in s:
                     length += 1
-
                 longest = max(longest, length)
 
         return longest
 
-
 obj = Solution()
-
 nums = list(map(int, input().split()))
-
 result = obj.longestConsecutive(nums)
-
 print(result)
