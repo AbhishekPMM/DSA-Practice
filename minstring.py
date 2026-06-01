@@ -33,9 +33,3 @@ s = input("enter the string : ")
 t = input("enter the string to check : ")
 result = obj.minstring(s,t)
 print(result)    
-            
-
-        
-
-        
-
