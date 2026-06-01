@@ -41,7 +41,6 @@ class Solution(object):
 
 
 obj = Solution()
-
 nums = list(map(int, input("Enter numbers: ").split()))
 k = int(input("Enter k: "))
 
